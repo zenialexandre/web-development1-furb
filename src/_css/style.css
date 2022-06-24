@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+body, html {
+    background: linear-gradient(to right, #92abff, #5580f7);
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+div {
+    padding-bottom: 10rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin: auto;
+    width: 90%;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    display: none;
+}
+
+/*::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: none;
+    background: linear-gradient(to right, #d0dbff, #5580f7);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+} */
+
+header#cabecalho {
+    border-bottom: solid 1px rgb(26, 26, 26);
+    height: 122px;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    color: linear-gradient(to right, #c1cfff, #779cff);
+    text-shadow: 1px 1px 1px #1b57fc;
+    display: block;
+    text-align: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+header h4 {
+    color: linear-gradient(to right, #6085ff, #1b57fc);
+    top: 50px;
+    right: 200px;
+    position: absolute;
+    display: block;
+}
+
+img#logo {
+    width: 6%;
+    height: auto;
+    display: block;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+img#iconeUser {
+    display: block;
+    height: auto;
+    width: 15%;
+    top: -30px;
+    right: 0px;
+    position: absolute;
+    opacity: 0;
+}
+
+nav {
+    margin-top: -17px;
+    display:flex;
+    flex-wrap:wrap; 
+    align-items:center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+li {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, #92abff, #5580f7);
+    display: inline-block;
+    padding: 1rem;
+    margin: 0;
+    left: 0;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    border-radius: 15%;
+}
+
+li:hover, a:hover {
+    text-decoration: bold;
+    background: #779cff;
+}
+
+ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover>ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    padding-top: 0.5px;
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    height: 60px;
+    border-top: solid 2px rgb(26, 26, 26);
+}
+
+footer p {
+    text-align: center;
+}
