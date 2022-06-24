@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+.card {
+    box-shadow: 1px 1px 10px black;
+    background: linear-gradient(to right, #c1cfff, #779cff);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+.card-title {
+    font-family: 'Lobster', cursive;
+    border-bottom: 1px dotted black;
+    font-size: large;
+    text-align: center;
+}
+
+.form-group label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+}
+
+.form-group input {
+    border-color: #5580f7;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group input:focus {
+    border-color: aqua;
+    background-color: rgb(238, 250, 253);
+}
+
+.form-group select {
+    border-color: #5580f7;
+    box-shadow: 1px 1px 1px black;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group select:focus {
+    border-color: aqua;
+    background-color: rgb(238, 250, 253);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+button#saveButton {
+    background: linear-gradient(to right, #c1cfff, #779cff);
+    color: rgb(65, 65, 65) !important;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button#reportsButton {
+    background: linear-gradient(to right, #87b9cf, #50d1d5);
+    color: rgb(42, 41, 41) !important;
+    font-family: 'Lobster', cursive;
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#infoTable button {
+    background: linear-gradient(to right, #c1cfff, #779cff);
+    color: rgb(65, 65, 65) !important;
+    font-family: 'Lobster', cursive;
+    height: 35px !important;
+}
+
+.table-hover {
+    width: 70% !important;
+    margin-right: -150px !important;
+    margin-top: -590px !important;
+    margin-left: auto;
+    align-self: right;
+    height: auto;
+    opacity: 0;
+}
+
+@media (min-width: 992px) {
+    body {
+        overflow-x: scroll;
+        scrollbar-width: 100%;
+        overflow: visible;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;   
+        width: 100%;
+    }
+}
+
+footer {
+    background: linear-gradient(to right, #5076f3, #3363e9);
+    bottom: 0;
+    position: absolute;
+    height: min-content;
+    width: 100%;
+}
+
+#mainFooterBox {
+    margin-bottom: -100px;
+}
