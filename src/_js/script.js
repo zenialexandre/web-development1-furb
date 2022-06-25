@@ -8,13 +8,13 @@ const loginButton = document.getElementById('loginButton');
 const bootstrapHeader = document.getElementById('header');
 
 function tabDisplay() {
-    if (window.location.pathname == '/src/index.html') {
+    if (window.location.pathname == '/Web-Development1-FURB/src/index.html') {
         document.getElementById('indexTab').style.color = 'aquamarine';
-    } else if (window.location.pathname == '/src/login.html') {
+    } else if (window.location.pathname == '/Web-Development1-FURB/src/login.html') {
         document.getElementById('loginTab').style.color = 'aquamarine';
-    } else if (window.location.pathname == '/src/cadastro.html') {
+    } else if (window.location.pathname == '/Web-Development1-FURB/src/cadastro.html') {
         document.getElementById('cadastroTab').style.color = 'aquamarine';
-    } else if (window.location.pathname == '/src/cadastro2.html') {
+    } else if (window.location.pathname == '/Web-Development1-FURB/src/cadastro2.html') {
         document.getElementById('cadastro2Tab').style.color = 'aquamarine';
     }
 }
