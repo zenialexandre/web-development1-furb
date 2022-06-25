@@ -28,6 +28,7 @@ body {
 .header-blue {
     background: linear-gradient(to right, #92abff, #5580f7);
     padding-bottom: 80px;
+    padding-top: 20px;
     font-family: 'Lobster', cursive;
     font-size: large;
 }
